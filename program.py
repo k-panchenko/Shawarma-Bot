@@ -17,7 +17,7 @@ dp = Dispatcher(bot)
 message_container = MessageContainer()
 
 
-@dp.message_handler(commands='start')
+@dp.message_handler(commands='shawa')
 async def start_command(message: types.Message):
     if message_container.message:
         message.message_id = message_container.message.message_id
