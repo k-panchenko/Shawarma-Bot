@@ -6,8 +6,8 @@ from aiogram.utils.executor import start_polling
 
 from bot import keyboard
 from bot.model import MessageContainer
-from env.const import OPTIONS
-from env.environment import BOT_TOKEN
+from environment.const import OPTIONS
+from environment.environment import BOT_TOKEN
 
 logging.basicConfig(level=logging.INFO)
 
