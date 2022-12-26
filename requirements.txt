@@ -12,5 +12,5 @@ multidict==6.0.2
 pip==21.1.2
 pytz==2022.2.1
 setuptools==57.0.0
-wheel==0.36.2
+wheel==0.38.1
 yarl==1.8.1
